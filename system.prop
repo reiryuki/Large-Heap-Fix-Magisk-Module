@@ -1,0 +1,4 @@
+dalvik.vm.heapsize=512m
+dalvik.vm.heapgrowthlimit=256m
+
+

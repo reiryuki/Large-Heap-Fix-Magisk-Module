@@ -1,8 +1,8 @@
 # Large Heap Fix Magisk Module
 
 ## Descriptions
-- Fixes force closes in apps which using largeHeap="true" (like game apps and music/video streaming apps) caused by low dalvik.vm.heapsize and dalvik.vm.heapgrowthlimit settings
-- Resets dalvik.vm.heapsize to 512m and dalvik.vm.heapgrowthlimit to 256m. You can check in Termux/Terminal `su -c getprop dalvik.vm.heapsize` and `su -c getprop dalvik.vm.heapgrowthlimit`. If the result values are lower, then you may need this module.
+- Fixes force closes in apps which using largeHeap="true" (like game apps and music/video streaming apps) caused by too low dalvik.vm.heapsize settings.
+- Sets dalvik.vm.heapsize to 512m. You can check in Termux/Terminal `su -c getprop dalvik.vm.heapsize`. If the default value is lower than 512m, then you may need this module.
 
 ## Requirements
 - Magisk/KernelSU/Apatch/Kitsune Mask installed

